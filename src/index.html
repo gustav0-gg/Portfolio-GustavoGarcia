@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Pessoal</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style/portfolio.css') }}">
+    <link rel="stylesheet" href="../src/static/style/portfolio.css">
 </head>
 <body>
     <div id="preloader">
         <div class="shuffle-text" id="text">Gustavo Garcia Gomes</div>
     </div>
     <header>
-        <img id="GGG" src="{{ url_for('static', filename='media/GGG.png') }}" alt="GGG">
+        <img id="GGG" src="../src/static/media/GGG.png" alt="GGG">
         <nav> <a href="#apresentacao" id="barranav">Início </a>|<a href="#projetos" id="barranav"> Projetos </a>| <a href="#curriculo" id="barranav">Currículo </a> | <a href="#contato" id="barranav">Contato </a> </nav>
-        <img id= 'butterfly'src="{{ url_for('static', filename='media/butterfly.png') }}" alt="butterfly">
+        <img id= 'butterfly' src="../src/static/media/butterfly.png" alt="butterfly">
     </header>
     <main>
         <section id="apresentacao" class="reveal">
@@ -22,8 +22,8 @@
                 <p>Meu nome é Gustavo, estou cursando análise e desenvolvimento de sistemas na FATEC de São José dos Campos. Tenho expêriencia com Python e HTML/CSS, e quero me especializar em projetos que envolvam cibersegurança e análise de dados.</p>
             </div>
             <div class="foto">
-                <img id="moldura" src="{{ url_for('static', filename='media/round_suminagashi.png') }}" alt="moldura">
-                <img id="pfp" src="{{ url_for('static', filename='media/pfp.png') }}" alt="foto de perfil">
+                <img id="moldura" src="../src/static/media/round_suminagashi.png" alt="moldura">
+                <img id="pfp" src="../src/static/media/pfp.png" alt="foto de perfil">
             </div>
         </section>
         
@@ -31,11 +31,11 @@
             <span>Projetos</span>
             <p id="sub">ㅤ• SIRAAS</p>
             <p id="descrição">Meu projeto do primeiro semestre do curso de ADS <a href="https://sjc.fatec.sp.gov.br/aprendizagem-por-projetos-integrados#:~:text=A%20API%20(Aprendizagem%20por%20Projetos,até%20Primeiro%20Semestre%20de%202022" target="_blank" style="color: white;">(API)</a> da FATEC, consiste em um sistema web desenvolvido para instituiçoes escolares para a administração, utilizando Python, HTML/CSS, JS e o Figma </p>
-            <a id="descrição" href="https://github.com/Gabrielle0905/SIRAAS" target="_blank"><img src="{{ url_for('static', filename='media/link-alt.png') }}" alt=""> Github do Projeto</a>
+            <a id="descrição" href="https://github.com/Gabrielle0905/SIRAAS" target="_blank"><img src="../src/static/media/link-alt.png" alt=""> Github do Projeto</a>
         </section>
         <div id="fotoprojetos" class="reveal">
-            <img id="moldura2" src="{{ url_for('static', filename='media/moldura2.png') }}" alt="moldura2">
-            <img id="SIRAAS" src="{{ url_for('static', filename='media/logoSIRAAS.png') }}" alt="logoSIRAAS">
+            <img id="moldura2" src="../src/static/media/moldura2.png" alt="moldura2">
+            <img id="SIRAAS" src="../src/static/media/logoSIRAAS.png" alt="logoSIRAAS">
         </div>
 
         <section id="curriculo" class="reveal">
@@ -49,26 +49,26 @@
             <p id="sub">ㅤ• Certificados:</p>
             <p id="descrição">ㅤ• Certificado de participação no Programação 1.0 - Inatel 2022 <br>
                               ㅤㅤ• Conquista: 3° Lugar na etapa de equipes  <br>
-                              ㅤㅤ• <a href="{{ url_for('static', filename='docs/Inatel.pdf') }}" target="_blank" style="color: white;"><img src="{{ url_for('static', filename='media/outra_janela.png') }}" alt=""> Acessar arquivo</a><br>
+                              ㅤㅤ• <a href="../src/static/docs/Inatel.pdf" target="_blank" style="color: white;"><img src="../src/static/media/outra_janela.png" alt=""> Acessar arquivo</a><br>
                             ㅤ• Certificado curso de Git - 2025 <br>
-                            ㅤㅤ• <a href="{{ url_for('static', filename='docs/git.pdf') }}" target="_blank" style="color: white;"><img src="{{ url_for('static', filename='media/outra_janela.png') }}" alt=""> Acessar arquivo</a>
+                            ㅤㅤ• <a href="../src/static/docs/git.pdf" target="_blank" style="color: white;"><img src="../src/static/media/outra_janela.png" alt=""> Acessar arquivo</a>
         </section>
         <section id="contato" class="reveal">
             <span>Contato</span>
             <p id="sub">ㅤ• Linkedin:</p>
-            <a id="descrição" href="https://www.linkedin.com/in/gustavo-garcia-gomes-b42462365/" target="_blank"><img src="{{ url_for('static', filename='media/link-alt.png') }}" alt=""> Gustavo Garcia Gomes</a>
+            <a id="descrição" href="https://www.linkedin.com/in/gustavo-garcia-gomes-b42462365/" target="_blank"><img src="../src/static/media/link-alt.png" alt=""> Gustavo Garcia Gomes</a>
             
             <p id="sub">ㅤ• GitHub:</p>
-            <a id="descrição" href="https://github.com/gustav0-gg" target="_blank"><img src="{{ url_for('static', filename='media/link-alt.png') }}" alt="">gustav0-gg</a>
+            <a id="descrição" href="https://github.com/gustav0-gg" target="_blank"><img src="../src/static/media/link-alt.png" alt="">gustav0-gg</a>
 
             <p id="sub">ㅤ• Email:</p>
             <p id="descrição">ㅤ• gustavogarciagomes00@gmail.com
         </section>
     </main>
     <footer>
-        <img  id="estrela" src="{{ url_for('static', filename='media/star.png') }}" alt="estrela">
+        <img  id="estrela" src="../src/static/media/star.png" alt="estrela">
     </footer>
-    <script src="{{ url_for('static', filename='js/reveal.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/preloader.js') }}"></script>
+    <script src="../src/static/js/reveal.js"></script>
+    <script src="../src/static/js/preloader.js"></script>
 </body>
 </html>
