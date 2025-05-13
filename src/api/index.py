@@ -13,6 +13,10 @@ app = Flask(__name__, static_folder=static_folder, template_folder=template_fold
 def homepage():
     return render_template('portfolio.html')
 
+@app.errorhandler(500)
+def server_error(e):
+    return f"<h1>Erro Interno</h1><p>{e}</p>", 500
+
 def handler(environ, start_response):
     return app(environ, start_response)
 
