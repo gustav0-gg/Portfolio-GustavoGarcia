@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return render_template('homepage.html')
+    return render_template('portfolio.html')
 
 
 if __name__ == '__main__' :
