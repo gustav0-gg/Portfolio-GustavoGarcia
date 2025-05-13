@@ -15,4 +15,4 @@ function revealElements() {
 }
 
 window.addEventListener('scroll', revealElements);
-window.addEventListener('load', revealElements); // para rodar ao carregar a página
+window.addEventListener('load', revealElements); 

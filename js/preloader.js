@@ -1,4 +1,4 @@
-document.body.style.overflow = "hidden"; // Evita scroll no início
+document.body.style.overflow = "hidden"; 
 
 const preloader = document.getElementById("preloader");
 const el = document.getElementById("text");
@@ -26,10 +26,9 @@ const interval = setInterval(() => {
       preloader.style.transition = "transform 1s ease";
       preloader.style.transform = "translateY(-100%)";
 
-      // Espera a animação terminar para remover totalmente
       setTimeout(() => {
         preloader.style.display = "none";
-        document.body.style.overflow = "auto"; // Libera o scroll
+        document.body.style.overflow = "auto";
       }, 1000);
     }, 800);
   }
