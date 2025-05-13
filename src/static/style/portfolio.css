@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Play&family=Poppins&family=Special+Gothic+Expanded+One&display=swap');
+
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-family: 'Goldman';
+    height: 100vh;
+    padding-top: 15%;
+    overflow: hidden;
+
+
+}
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    background-color: rgba(20, 20, 20, 0.9);
+    z-index: 1000;
+    position: fixed;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+
+}
+
+header nav{
+    margin: auto;
+    justify-self: center;
+    font-size: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+#GGG{
+    height: 52px;
+    width: 55px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#butterfly{
+    height: 73px;
+}
+
+main{
+    display: block;
+}
+
+#apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+#inicio{
+    margin-left: 75px;
+    width: 45%;
+    font-size: 24px;
+    display: block;
+    justify-content:space-between;
+}
+
+#inicio span, #projetos span, #curriculo span, #contato span{
+    font-size: 48px;
+}
+
+.foto{
+    position: relative;
+    width: 20%;
+    height: 20%; 
+    margin-right: 7.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pfp{
+    position: absolute;
+    width: 85%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#moldura{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#projetos,#curriculo, #contato{
+    margin-left: 75px;
+    width: 80%;
+    font-size: 24px;
+}
+
+#descrição{
+    margin-left: 5%;
+    color: white;
+}
+
+#sub{
+    font-size: 32px;
+}
+
+#fotoprojetos{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 45%; 
+    margin: 50px auto; 
+}
+
+#SIRAAS{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#moldura2{
+    width: 100%;
+    height: auto;
+}
+
+#estrela{
+    width: 5%;
+    margin-top: 10%;
+
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#barranav{
+    text-decoration: none;
+    color: white;
+}
+
+#preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  font-family: "Special Gothic Expanded One";
+  transition: transform 1s ease;
+}
+
+
+.shuffle-text {
+  white-space: nowrap;
+  font-size: 2rem;
+}
+
+#main-content {
+  opacity: 0;
+  transition: opacity 1s ease;
+  padding: 50px;
+}
+
+#apresentacao,
+#projetos,
+#curriculo,
+#contato {
+  scroll-margin-top: 5rem;
+}
