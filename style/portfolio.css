@@ -8,8 +8,7 @@ body{
     height: 100vh;
     padding-top: 15%;
     overflow: hidden;
-
-
+    width: 100%;
 }
 
 header{
@@ -71,6 +70,10 @@ main{
     font-size: 48px;
 }
 
+#curriculo{
+    margin-bottom: 10%;
+}
+
 .foto{
     position: relative;
     width: 20%;
@@ -104,7 +107,11 @@ main{
     font-size: 24px;
 }
 
-#descrição{
+#foto_projeto{
+    margin-bottom: 10%;
+}
+
+.descrição{
     margin-left: 5%;
     color: white;
 }
