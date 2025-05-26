@@ -11,6 +11,9 @@ body{
     width: 100%;
 }
 
+
+
+
 header{
     top: 0;
     left: 0;
@@ -86,7 +89,7 @@ main{
 
 #pfp{
     position: absolute;
-    width: 85%;
+    width: 87%;
     height: auto;
     top: 50%;
     left: 50%;
@@ -112,12 +115,18 @@ main{
 }
 
 .descrição{
-    margin-left: 5%;
     color: white;
+    margin-left: 5%;
 }
 
-#sub{
+.sub{
     font-size: 32px;
+    margin-left: 2.5%;
+}
+
+.detalhes{
+    margin-left: 7.5%;
+    margin-top: -1rem;
 }
 
 #fotoprojetos{
@@ -196,4 +205,13 @@ main{
 #curriculo,
 #contato {
   scroll-margin-top: 5rem;
+}
+
+.logos{
+    margin-left: 5px;
+    margin-bottom: -4px;
+}
+
+.link-alt{
+    margin-right: 5px;
 }
