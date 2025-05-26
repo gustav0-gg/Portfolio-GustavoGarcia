@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Play&family=Poppins&family=Special+Gothic+Expanded+One&display=swap');
 
+html{
+    scroll-behavior: smooth;
+
+}
+
 body{
     background-color: black;
     margin: 0;
@@ -10,9 +15,6 @@ body{
     overflow: hidden;
     width: 100%;
 }
-
-
-
 
 header{
     top: 0;
