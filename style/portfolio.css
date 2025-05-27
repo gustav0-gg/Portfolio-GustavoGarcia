@@ -214,6 +214,19 @@ main{
     margin-bottom: -4px;
 }
 
-.link-alt{
+.link{
     margin-right: 5px;
+}
+
+::-webkit-scrollbar{
+    background-color: #5a5a5a;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #989898;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-button{
+    background-color: #424242;
 }
