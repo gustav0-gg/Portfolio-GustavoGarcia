@@ -71,7 +71,7 @@ main{
     justify-content:space-between;
 }
 
-#inicio span, #projetos span, #curriculo span, #contato span{
+#inicio span, .projetos span, #curriculo span, #contato span{
     font-size: 48px;
 }
 
@@ -106,7 +106,7 @@ main{
     z-index: 1;
 }
 
-#projetos,#curriculo, #contato{
+.projetos,#curriculo, #contato{
     margin-left: 75px;
     width: 80%;
     font-size: 24px;
@@ -131,7 +131,7 @@ main{
     margin-top: -1rem;
 }
 
-#fotoprojetos{
+.fotoprojetos{
     display: flex;
     justify-content: center;
     position: relative;
@@ -148,9 +148,23 @@ main{
     transform: translate(-50%, -50%);
 }
 
+#sphera{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #moldura2{
     width: 100%;
     height: auto;
+}
+
+#moldura3{
+    width: 60%;
+    height: 9.5rem;
 }
 
 #estrela{
